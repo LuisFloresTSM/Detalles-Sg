@@ -6,9 +6,9 @@
 :root {
   --color-bg: #ffffff;
   --color-bg-soft: #f4f4f5;
-  --color-header-desktop: #6e6e6e;
+  --color-header-desktop: #93aebf;
   --color-header-mobile: #c8c8c8;
-  --color-footer: #1d1d1d;
+  --color-footer: #1c2f4d;
   --color-dark: #1c2f4d;
   --color-dark-hover: #232c3d;
   --color-text: #141414;
@@ -91,7 +91,7 @@ select {
    ========================================================================== */
 
 .site-header {
-  background-color: #93AEBF;
+  background-color: var(--color-header-desktop);
   color: #ffffff;
   position: sticky;
   top: 0;
@@ -521,7 +521,7 @@ select {
 
 .site-footer {
   background-color: var(--color-footer);
-  color: #e5e7eb;
+  color: #d48d91;
   padding: 3rem 0 1.75rem;
 }
 
